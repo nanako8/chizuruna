@@ -1,0 +1,193 @@
+.top {
+  padding: 10rem 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: #f73d2c;
+}
+
+.work-img {
+  width: 50%;
+  height: auto;
+  aspect-ratio: 13/9;
+  /* アスペクト比を指定 */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contents,
+.details {
+  margin: 0 14rem;
+}
+
+
+
+h1 {
+  padding: 15px;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+  color: #FF7E90;
+  opacity: 80%;
+}
+
+h3 {
+  font-size: 2.3rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2%;
+  opacity: 80%;
+  font-weight: bold;
+}
+
+.contents-wrapper {
+  background-color: #ffffff;
+}
+
+.contents a {
+  display: block;
+  color: #FF7E90;
+}
+
+
+.detail1 {
+  width: 60%;
+  /* margin: 5%; */
+}
+
+@media(max-width:1100px) {
+
+  .contents,
+  .details {
+    margin: 0 10rem;
+  }
+
+  .work-img {
+    width: 70%;
+  }
+
+  .detail1 {
+    width: 80%;
+    /* margin: 5%; */
+  }
+
+}
+
+@media(max-width:900px) {
+
+  .contents,
+  .details {
+    margin: 0 10rem;
+  }
+}
+
+@media(max-width:750px) {
+
+  .contents,
+  .details {
+    margin: 0 7rem;
+  }
+
+  .detail1 {
+    width: 100%;
+    /* margin: 5%; */
+  }
+}
+
+
+@media(max-width:500px) {
+
+  .contents,
+  .details {
+    margin: 0 2.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    font-weight: bolder;
+  }
+
+  .work-img {
+    width: 100%;
+  }
+}
+
+.details p {
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+.contents p,
+.contents a {
+  margin: 6rem 0;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+.movie {
+  padding: 10rem 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin: 0;
+}
+
+.movie iframe {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 13/9;
+  /* アスペクト比を指定 */
+}
+
+.photo {
+  padding: 10rem 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin: 0;
+}
+
+.section-title {
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+  width: 45rem;
+}
+
+.slide-container {
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slide-wrapper {
+  display: flex;
+  animation: slide-flow 20s infinite linear 1s both;
+}
+
+.slide {
+  /* width: 50rem; */
+  object-fit: cover;
+  border: 1px solid #ddd;
+  /* aspect-ratio: 13/9; */
+  height:30rem;
+}
+
+@keyframes slide-flow {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}

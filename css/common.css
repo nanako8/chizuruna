@@ -1,0 +1,101 @@
+html {
+  font-family:'Yu Gothic UI','Yu Gothic', sans-serif;
+  color: rgb(33, 32, 29);
+  font-size: 62.5%; /* 16pxの62.5% = 10px */
+  background-color: rgb(252, 252, 252);
+}
+
+/* 画面サイズに応じてフォントサイズを調整するメディアクエリ */
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 62.5%; /* 基本フォントサイズを9pxに設定 */
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 60%; /* 基本フォントサイズを8pxに設定 */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 55%; /* 基本フォントサイズを7pxに設定 */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 48%; /* 基本フォントサイズを6pxに設定 */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 31.25%; /* 基本フォントサイズを5pxに設定 */
+  }
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header-logo {
+  height: 5rem;
+}
+
+.global-nav {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.global-nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 
+    1px 1px 10px #FFFFFF, 
+    -1px -1px 10px #FFFFFF,
+    -1px 1px 10px #FFFFFF,
+    1px -1px 10px #FFFFFF,
+    1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.global-nav .nav-item {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+footer {
+  background-color: #000000;
+  height: 150px;
+  margin-top: 200px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+footer p {
+  font-size: 1.2rem;
+  margin: 0;
+  color: rgb(252, 252, 252);
+  margin-top: 100px;
+}
