@@ -2,7 +2,7 @@ html {
   font-family:'Yu Gothic UI','Yu Gothic', sans-serif;
   color: rgb(33, 32, 29);
   font-size: 62.5%; /* 16pxの62.5% = 10px */
-  background-color: rgb(252, 252, 252);
+  background-color: rgb(255, 0, 0);
 }
 
 /* 画面サイズに応じてフォントサイズを調整するメディアクエリ */
@@ -68,15 +68,15 @@ header {
 
 .global-nav a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 2rem;
   text-shadow: 
-    1px 1px 10px #FFFFFF, 
-    -1px -1px 10px #FFFFFF,
-    -1px 1px 10px #FFFFFF,
-    1px -1px 10px #FFFFFF,
-    1px 1px 10px rgba(0, 0, 0, 0.2);
+    1px 1px 5px #ff0000, 
+    -1px -1px 5px #ff0000,
+    -1px 1px 5px #ff0000,
+    1px -1px 5px #5e0000,
+    1px 1px 5px#5e0000;
 }
 
 .global-nav .nav-item {
