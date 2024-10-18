@@ -1,9 +1,13 @@
 html {
-  font-family:'Yu Gothic UI','Yu Gothic', sans-serif;
+  /* font-family:'Yu Gothic UI','Yu Gothic', sans-serif; */
   color: rgb(33, 32, 29);
   font-size: 62.5%; /* 16pxの62.5% = 10px */
-  background-color: rgb(255, 0, 0);
+  /* background-color: rgb(255, 0, 0); */
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
+  
 
 /* 画面サイズに応じてフォントサイズを調整するメディアクエリ */
 @media screen and (max-width: 1200px) {
@@ -87,7 +91,6 @@ header {
 footer {
   background-color: #000000;
   height: 150px;
-  margin-top: 200px;
   display: flex;
   /* align-items: center; */
   justify-content: center;
@@ -97,5 +100,5 @@ footer p {
   font-size: 1.2rem;
   margin: 0;
   color: rgb(252, 252, 252);
-  margin-top: 100px;
+  margin-top: 10rem;
 }

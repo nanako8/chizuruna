@@ -1,28 +1,31 @@
 .top {
   display: flex;
   justify-content: center;
-  margin: 0;
   /* background-color: #f73d2c; */
-  height: 50rem;
-  background-image: url("../images/back-ground/top.jpg");
+  height: 60rem;
+  /* background-image: url("../images/back-ground/top.png"); */
   background-size: cover;
-  background-color: rgba(239, 234, 238, 0.196);
+  background-color: rgba(255, 241, 252, 0.068);
   background-blend-mode: lighten;
-
-
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  position:relative;
 }
 
-.top-chara {
-  width: 20.75rem;
-  height: 33.875rem;
-  /* flex-shrink: 0; */
+.top-title {
+  position: absolute;
+  width: 60rem;
+  top:30rem;
 }
 
-.top-title{
-  width: 40.25rem;
-  height: 14.875rem;
-  margin: 28rem;
-  /* flex-shrink: 0; */
+.top-chizu,.top-runa{
+  height: 40rem;
+  width: auto;
+  /* margin-top: 10rem;
+  margin-right: 15rem;
+  margin-left: 15rem; */
 }
 
 /* .background-img {
@@ -33,10 +36,9 @@
 .contents,
 .details {
   margin: 0 14rem;
-  aspect-ratio: ;
+  /* aspect-ratio: ; */
+  text-align: center;
 }
-
-
 
 h1 {
   padding: 15px;
@@ -46,43 +48,83 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 5rem;
   letter-spacing: 0.2rem;
   margin-bottom: 2rem;
-  color: #FF7E90;
-  opacity: 80%;
+  color: #e13c09;
+  display: flex;
+  align-items: center;
+  font: weight
 }
 
 h3 {
   font-size: 2.3rem;
   letter-spacing: 0.2rem;
-  margin-bottom: 2%;
-  opacity: 80%;
   font-weight: bold;
 }
 
-.contents-wrapper {
-  background-color: #ffffff;
+.wrapper {
+  /* background-color: #ffffff; */
+  background-image: url("../images/back-ground/back.jpg");
+  background-size:contain;
+  background-repeat: repeat;
+    overflow:hidden
+  /* background-color: rgba(255, 255, 255, 0.774); */
+  /* background-blend-mode: lighten; */
+}
+
+/* .section-d {
+  position: relative;
+  width: 1440px;
+  height: 49px;
+  margin: 0 0 0 0;
+  background: #1b1b1b;
+  z-index: 147;
+} */
+
+.section-e {
+  /* position: absolute; */
+  /* height: 1134px; */
+  /* top: 0; */
+  /* right: 0; */
+  /* left: 9370px; */
+  /* background: #cec7e0; */
+  /* z-index: 18; */
+  margin:4rem;
+}
+
+.text-4c {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  /* position: absolute; */
+  /* width: 605.5px; */
+  height: 284.38px;
+  /* top: 0; */
+  /* left: calc(50% - 302.66px); */
+  color: #000000;
+  font-size: 1.8rem;
+  font-weight:light;
+  line-height: 4rem;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   display: block;
-  color: #FF7E90;
+  color: #ff7e90;
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
   margin-bottom: 2rem;
   opacity: 80%;
 }
-
 
 .detail1 {
   width: 60%;
   /* margin: 5%; */
 }
 
-@media(max-width:1100px) {
-
+@media (max-width: 1100px) {
   .contents,
   .details {
     margin: 0 10rem;
@@ -96,19 +138,16 @@ a {
     width: 80%;
     /* margin: 5%; */
   }
-
 }
 
-@media(max-width:900px) {
-
+@media (max-width: 900px) {
   .contents,
   .details {
     margin: 0 10rem;
   }
 }
 
-@media(max-width:750px) {
-
+@media (max-width: 750px) {
   .contents,
   .details {
     margin: 0 7rem;
@@ -120,9 +159,7 @@ a {
   }
 }
 
-
-@media(max-width:500px) {
-
+@media (max-width: 500px) {
   .contents,
   .details {
     margin: 0 2.5rem;
@@ -149,7 +186,6 @@ a {
 }
 
 .movie {
-  padding: 10rem 0;
   display: flex;
   justify-content: center;
   height: auto;
@@ -175,13 +211,17 @@ a {
 .section-title {
   display: block;
   margin: auto;
+  margin-bottom: 6rem;
   padding: 25px, 0;
   width: 45rem;
+  font-weight: 900;
+  
 }
 
 .slide-container {
   width: 100%;
-  margin: 50px auto;
+  margin-top: 5rem;
+  /* margin-bottom: 10rem; */
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -190,6 +230,8 @@ a {
   -ms-overflow-style: none;
   /* Firefox 対応 */
   scrollbar-width: none;
+  padding-bottom: 10rem;
+  
 }
 
 .slide-paused:hover .slide-wrapper {
@@ -197,19 +239,19 @@ a {
 }
 
 .slide-paused:hover .slide-wrapper img:hover {
-  opacity: .8;
+  opacity: 0.8;
   cursor: grabbing;
 }
 
 .slide-wrapper {
   display: flex;
-  animation: slide-flow 50s infinite linear 1s both;
+  animation: slide-flow 30s infinite linear 1s both;
 }
 
 .slide {
   /* width: 50rem; */
   object-fit: cover;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   /* aspect-ratio: 13/9; */
   height: 30rem;
 }
@@ -222,4 +264,12 @@ a {
   100% {
     transform: translateX(-100%);
   }
+}
+
+.contents-wrapper{
+  margin: 10rem 8rem;
+  padding: 10rem 0;
+  background-color: #ffabab2d;
+  overflow: hidden;
+  border-radius: 4rem;
 }
