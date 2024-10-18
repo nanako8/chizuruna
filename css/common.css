@@ -6,8 +6,20 @@ html {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 700;
   font-style: normal;
+  /* background-image: url("../images/back-ground/back.jpg"); */
+  background-size: contain;
+  background-repeat: repeat;
+  /* overflow:hidden */
+  background-color: #ffffff;
 }
-  
+
+.curved {
+  position: relative;
+  background: #2c3e50;
+  height: 50vh;
+  border-bottom-left-radius: 50% 17%;
+  border-bottom-right-radius: 50% 17%;
+}
 
 /* 画面サイズに応じてフォントサイズを調整するメディアクエリ */
 @media screen and (max-width: 1200px) {
@@ -40,7 +52,6 @@ html {
   }
 }
 
-
 body {
   margin: 0;
   padding: 0;
@@ -72,15 +83,12 @@ header {
 
 .global-nav a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
+  color: rgb(255, 0, 0);
+  font-weight: 900;
   font-size: 2rem;
-  text-shadow: 
-    1px 1px 5px #ff0000, 
-    -1px -1px 5px #ff0000,
-    -1px 1px 5px #ff0000,
-    1px -1px 5px #5e0000,
-    1px 1px 5px#5e0000;
+  text-shadow: 0.1rem 0.1rem 0.2rem #ffffff, -0.1rem -0.1rem 0.2rem #ffffff,
+    -0.1rem 0.1rem 0.2rem #ffffff, 0.1rem -0.1rem 0.2rem #ffffff,
+    0.1rem 0.1rem 0.2rem #ffffff;
 }
 
 .global-nav .nav-item {
