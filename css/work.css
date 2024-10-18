@@ -109,7 +109,6 @@ h3 {
   justify-content: center;
   /* position: absolute; */
   /* width: 605.5px; */
-  height: 284.38px;
   /* top: 0; */
   /* left: calc(50% - 302.66px); */
   color: #000000;
@@ -124,7 +123,6 @@ h3 {
   justify-content: center;
   /* position: absolute; */
   /* width: 605.5px; */
-  height: 284.38px;
   /* top: 0; */
   /* left: calc(50% - 302.66px); */
   /* color: #000000; */
@@ -139,7 +137,6 @@ h3 {
   justify-content: center;
   /* position: absolute; */
   /* width: 605.5px; */
-  height: 284.38px;
   /* top: 0; */
   /* left: calc(50% - 302.66px); */
   color: #5a5a5a;
@@ -328,13 +325,18 @@ a {
 
 .chara-runa{
   width: 10rem;
+  margin: 5rem 0;
 }
 
 .chara-chizuru{
   width: 10rem;
-
+  margin: 5rem 0;
 }
 
 .padding-10{
   padding-top: 10rem;
+}
+
+.chara{
+  margin:13rem 0;
 }
