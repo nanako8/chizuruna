@@ -211,12 +211,9 @@ a {
     font-weight: bolder;
   }
 
-  .contents-wrapper{
-    margin: 10rem 1rem;
-    padding: 10rem 0;
-    background-color: #ffabab2d;
-    overflow: hidden;
-    border-radius: 2rem;
+  .top-title {
+    position: absolute;
+    width: 100%;
   }
 }
 
@@ -313,15 +310,33 @@ a {
 }
 
 .red{
-  background-color: #ff00003b;
+  background: linear-gradient(to top, #ff9cf83a 0%, #f5000034 100%)
 }
-
+.gold1{
+  background-color: #ff000041;
+}
 .gold{
-  background-color: #ff00001d;
+  /* background-color: #ff000041; */
+  background: linear-gradient(to top, #ffa20058 0%, #ff000041 100%)
 }
 
 .yellow{
-  background-color: #ffa20024;
+  /* background-color: #ffa20058; */
+  background: linear-gradient(to top, #ffa20058 0%, #ffa20058 100%)
+  
+}
+
+.charactor-d{
+  background: linear-gradient(to top,#f5000034 0%, #ffffff34 50%, #ffa20058 100%)
+}
+
+.chara-runa{
+  width: 10rem;
+}
+
+.chara-chizuru{
+  width: 10rem;
+
 }
 
 .padding-10{
