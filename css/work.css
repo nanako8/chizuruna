@@ -51,6 +51,7 @@
   margin: 0 14rem;
   /* aspect-ratio: ; */
   text-align: center;
+    overflow:hidden;
 }
 
 h1 {
@@ -235,8 +236,9 @@ a {
 .movie {
   display: flex;
   justify-content: center;
-  height: auto;
+  /* height: auto; */
   margin: 0;
+  aspect-ratio: 13/9;
 }
 
 .movie iframe {
@@ -304,10 +306,10 @@ a {
 }
 
 .contents-wrapper{
-  margin: 10rem 5rem;
+  /* margin: 10rem 5rem; */
   padding: 10rem 0;
   overflow: hidden;
-  border-radius: 4rem;
+  /* border-radius: 4rem; */
   background-color: rgba(255, 160, 158, 0.442);
   
 }
