@@ -196,6 +196,17 @@ a {
   /* }
 }  */
 
+@media(min-width:751px){
+  .sp{
+      display: none !important;
+  }
+}
+@media(max-width:750px){
+  .pc{
+      display: none !important;
+  }
+}
+
 @media (max-width: 500px) {
   .contents,
   .details {
@@ -206,6 +217,10 @@ a {
     font-size: 2rem;
     letter-spacing: 0.3rem;
     font-weight: bolder;
+  }
+
+  .top-title {
+    width: 100%;
   }
 
 }
