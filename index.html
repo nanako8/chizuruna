@@ -6,9 +6,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title> こいこい！チヅルナ</title>
-  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/work.css">
+  <link rel="stylesheet" href="css/menu.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800;900&display=swap"
@@ -17,15 +18,24 @@
 
 <body>
   <header>
-    <a href="index.html"><img class="header-logo" src=""></a>
-    <nav class="global-nav">
+    <div class="navtext-container">
+    </div>
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li class="nav-item"><a href="#top">トップ</a></li>
+      <li class="nav-item"><a href="#movie">ムービー</a></li>
+      <li class="nav-item"><a href="#story">ストーリー・キャラクター</a></li>
+      <li class="nav-item"><a href="#backstory">制作裏側</a></li>
+    </ul>
+    <!-- <nav class="global-nav">
       <ul>
         <li class="nav-item"><a href="#top">トップ</a></li>
         <li class="nav-item"><a href="#movie">ムービー</a></li>
         <li class="nav-item"><a href="#story">ストーリー・キャラクター</a></li>
         <li class="nav-item"><a href="#backstory">制作裏側</a></li>
       </ul>
-    </nav>
+    </nav> -->
   </header>
 
   <section class="top gold1" id="top">
@@ -76,7 +86,7 @@
           </div>
         </div>
         <div class="sp">
-          <span class="text-4c">花咲街に引っ越してきた⾼校2年⽣の⼥の⼦、満空 ⽉（みそら るな）.
+          <span class="text-4c">花咲街に引っ越してきた⾼校2年⽣の⼥の⼦、満空 ⽉（みそら るな）。
             恋ヶ来⾼校（こいがらいこうこう）への登校前⽇、ひょんなことから同級⽣の舞元千鶴（まいもと ちづる）と仲良くなる。<br />話を聞くと千鶴は2年⽣にして花札舞踏<span
               class="text-6c">※</span>部部⻑を務めているらしい。花札舞踏というゲームに興味を持った⽉。しかし千鶴が教えてくれる花札舞踏は普通の花札とは⼀味違うものだった…<br />活発無邪気な⽉と冷静沈着な千鶴、真逆な性格の2⼈が繰り広げる⻘春学園バトルコメディ！
           </span>
@@ -88,7 +98,7 @@
         </div>
         </div>
         <div class="pc">
-          <span class="text-4c">花咲街に引っ越してきた⾼校2年⽣の⼥の⼦、満空 ⽉（みそら るな）。<br>
+          <span class="text-4c">花咲街に引っ越してきた⾼校2年⽣の⼥の⼦、満空 ⽉。<br>
             恋ヶ来⾼校（こいがらいこうこう）への登校前⽇、ひょんなことから同級⽣の舞元千鶴（まいもと ちづる）と仲良くなる。<br />話を聞くと千鶴は2年⽣にして花札舞踏<span
               class="text-6c">※</span>部部⻑を務めているらしい。
             <br>花札舞踏というゲームに興味を持った⽉。
@@ -140,7 +150,7 @@
       </section>
     </section>
 
-    <section class="contents-wrapper red" id="backstory">
+    <section class="contents-wrapper red padding-bottom" id="backstory">
       <section class="contents">
         <!-- <img class="section-title" src="images/backstory.png"> -->
         <h2 class="section-title">製作裏側<h2>
@@ -196,7 +206,7 @@
                   <img class="slide" src="images/back-story/24.jpg">
                 </div>
               </div>
-              <span class="text-4c">
+              <span class="text-4c ">
                 ７名のグループ『天凪海おひな』で制作しました。</span>
             </section>
       </section>

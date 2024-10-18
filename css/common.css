@@ -62,7 +62,7 @@ header {
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  padding: 20px 30px;
+  /* padding: 20px 30px; */
   box-sizing: border-box;
   top: 0;
   left: 0;
