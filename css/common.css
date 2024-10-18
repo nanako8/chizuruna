@@ -6,10 +6,6 @@ html {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 700;
   font-style: normal;
-  /* background-image: url("../images/back-ground/back.jpg"); */
-  background-size: contain;
-  background-repeat: repeat;
-  background-color: #ffffff;
 }
 
 .curved {
@@ -55,6 +51,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url("../images/back-ground/back.jpg");
+  background-repeat: repeat;
 }
 
 header {
