@@ -1,0 +1,45 @@
+.top-runa{
+  animation: fadeInL 0.5s ease 1s 1 normal backwards;
+}
+
+@keyframes fadeInL {
+    from {
+      opacity: 0;
+      transform: translateX(1.5rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+
+.top-chizu {
+    animation: fadeInR 0.5s ease 1s 1 normal backwards;
+}
+
+@keyframes fadeInR {
+    from {
+      opacity: 0;
+      transform: translateX(0);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(1.5rem);
+    }
+}
+
+.top-title {
+    animation: fadeInB 0.5s ease 1s 1 normal backwards;
+}
+
+@keyframes fadeInB {
+    from {
+      opacity: 0;
+      transform: translateY(2rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0rem);
+    }
+}
+  

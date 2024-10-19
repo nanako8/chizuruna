@@ -31,14 +31,6 @@
   filter: drop-shadow(5px 5px 10px rgba(133, 133, 133, 0.7));
 }
 
-.top-chizu,.top-runa{
-  height:130rem;
-  width: auto;
-  /* margin-top: 10rem;
-  margin-right: 15rem;
-  margin-left: 15rem; */
-}
-
 /* .background-img {
   width: 100%;
   object-fit: cover;
@@ -358,4 +350,10 @@ a {
 
 .chara{
   margin:13rem 0;
+}
+
+.top-chara{
+  margin-top: 15rem;
+  height:100rem;
+  width: auto;
 }
