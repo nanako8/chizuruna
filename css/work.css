@@ -14,11 +14,14 @@
   justify-content: center;
   /* background-color: #f73d2c; */
   height: 60rem;
-  background-image: url("../images/back-ground/kyoushitsu.png");
+  background-image: url("../images/main.jpg");
+  background-position-x: center;
+  background-position-y: 4rem;
+  /* background-image: url("../images/back-ground/kyoushitsu.png"); */
   background-size: cover;
-  background-color: rgba(255, 235, 235, 0.315);
-  background-blend-mode: lighten;
-  margin: 0;
+  /* background-color: rgba(255, 235, 235, 0.315);
+  background-blend-mode: lighten; */
+  margin: 0 auto;
   overflow: hidden;
   /* position:relative; */
   /* margin-bottom: 30rem; */
@@ -320,9 +323,9 @@ a {
   padding-bottom: 15rem;
 }
 
-.padding-bottom1{
-  padding-bottom: 8rem;
-}
+/* .padding-bottom1{
+  padding-bottom: 0rem;
+} */
 
 .red{
   background: linear-gradient(to top, #ff9cf83a 0%, #f5000034 100%)
@@ -356,11 +359,11 @@ a {
 }
 
 .padding-10{
-  padding-top: 30rem;
+  padding-top: 10rem;
 }
 
 .chara{
-  margin:13rem 0;
+  margin:10rem 0 0 0;
 }
 
 .top-chara{
