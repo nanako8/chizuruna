@@ -26,18 +26,11 @@
   }
   
   /* Hamburger menu button */
-  .menu-btn:checked ~ .menu {
+  /* .menu-btn:checked ~ .menu {
     transform: scale(1, 1);
     transform-origin: top;
     transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
-  }
-
-  .menu-btn:checked ~ .menu {
-    transform: scale(1, 1);
-    transform-origin: top;
-    transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
-  }
-  
+  } */
   /* Hamburger menbu text */
   .menu a {
     text-decoration: none;

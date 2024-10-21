@@ -256,6 +256,14 @@ a {
   /* アスペクト比を指定 */
 }
 
+.movie {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 13/9;
+  /* アスペクト比を指定 */
+}
+
 .photo {
   padding: 10rem 0;
   display: flex;
