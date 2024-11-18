@@ -53,7 +53,6 @@ body {
   box-sizing: border-box;
   background-image: url("../images/back-ground/back.jpg");
   background-repeat: repeat;
-
 }
 
 header {
@@ -91,7 +90,9 @@ header {
 
 .global-nav .nav-item {
   display: inline-block;
+  position: absolute;
   margin-right: 2rem;
+  top: -52px;
 }
 
 footer {

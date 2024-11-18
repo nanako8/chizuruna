@@ -1,19 +1,34 @@
-$(function () {
-  var menu_list = $(".menu-list > li");
-  var body = $("body");
+// jQueryが読み込まれたことを確認してから実行
+$(document).ready(function () {
+  console.log("jQuery version:", $.fn.jquery); // jQueryのバージョンを確認
 
-  //menu_listがクリックされた時の処理
-  menu_list.click(function () {
-    //クリックされた要素のhrefを取得
-    var menu = $(this).attr("href");
-    //スクロール位置
-    var scroll_point = $(menu).offset().top;
+  // メニューのクリックイベント
+  $(".menu-list > li").on("click", function (e) {
+    e.preventDefault();
+    console.log("Clicked"); // クリックイベントの確認
 
-    body.animate(
-      {
-        scrollTop: scroll_point,
-      },
-      800
-    );
+    // クリックされた要素のdata-target属性を取得
+    var targetId = $(this).data("target");
+    console.log("Target ID:", targetId);
+
+    // スクロール先の要素を取得
+    var $target = $("#" + targetId);
+
+    if ($target.length > 0) {
+      // スクロール位置を計算
+      var position = $target.offset().top;
+      console.log("Scroll position:", position);
+
+      // スクロールアニメーション
+      $("html, body").animate(
+        {
+          scrollTop: position,
+        },
+        300
+      );
+
+      // メニューボタンのチェックを外す
+      $(".menu-btn").prop("checked", false);
+    }
   });
 });
