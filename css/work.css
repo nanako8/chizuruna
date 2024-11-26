@@ -243,23 +243,16 @@ a {
   display: flex;
   justify-content: center;
   /* height: auto; */
-  margin: 0;
   aspect-ratio: 13/9;
+  margin: 0 auto;
+  max-height: 80vh;
+  width: 100%;
 }
 
 .movie iframe {
   object-fit: cover;
   width: 100%;
   height: auto;
-  aspect-ratio: 13/9;
-  /* アスペクト比を指定 */
-}
-
-.movie {
-  object-fit: cover;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 13/9;
   /* アスペクト比を指定 */
 }
 
